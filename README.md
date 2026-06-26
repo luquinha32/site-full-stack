@@ -19,10 +19,15 @@ Projeto desenvolvido para aprendizagem de:
 
 ## Equipe
 
--Integrante 1
--Integrante 2
--Integrante 3
+-Gustavo Machado
+-Alerrandro de Matos
+-João Lucas
 
 ## Reposítorio
 
 Projeto criado durante a disciplina de Metodologias Ágeis.
+
+## atualizações
+-Novas funcionalidades desenvolvidas;
+-Estruturas atualizadas do site;
+-Capturas de tela do sistema.
