@@ -1,49 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0>
-<link rel="stylesheet" href="styles/style.css">
-     <title>site full stack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Full Stack Tarde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-     styles/style.css
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        nav {
+            margin-bottom: 2rem;
+        }
+
+        nav a {
+            margin-right: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Projeto site full stack</h1>
-        <p1>Exemplo de projeto utilizando Git, Github e Trello.</p1>
+        <h1>Site Full Stack Tarde</h1>
+        <p>Exemplo de projeto utilizando Git, Github e Trello.
     </header>
 
     <main>
         <section id="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>Este projeto foi desenvolvido para praticar Git, Github, Trello e desenvolvimento web.</p>
+            <h2>Sobre o projeto</h2>
+            <p>
+                Este projeto foi criado para praticar versionamento com GIt, hospedagem no
+                GitHub e gerenciamento de tarefas com Trello.
+            </p>
         </section>
-    <section id="equipe">
-        <h2>Equipe</h2>
-        <u1>
-            <li>Gustavo Machado</li>
-            <li>Alerrandro de Matos</li>
-            <li>João Lucas</li>
-        </u1>
-    </section>
-    <button onliclick="mostraMensagem()">
-        Clique Aqui
-    </button>
-    <p id="mensagem"></p>
-   </main>
-   <footer>
-         <p>&copy; 2026 - site full stack</p>  
-   </footer>
-<script src="scripts/script.js"></script>
+        <section id="equipe">
+            <h2>Equipes</h2>
+            <ul>
+                <li>Gustavo Machado</li>
+                <li>Alerrandro matos</li>
+                <li>João Lucas</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                <ul>
+                    <li>email para contato: tadeboa793@gmail.com</li>
+                </ul>
+            </p>
+
+            </p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <button onclick="mostrarMensagem()">
+            Clique aqui
+        </button>
+        <p id="mensagem"></p>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Site Full Stack Tarde.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#sobre">Equipe</a>
-    <a href="contato">Contato</a>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>tadeboa793@gmail.com</p>
-    </section>
-    </nav>
 </html>
