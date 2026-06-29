@@ -4,5 +4,5 @@ function mostrarMensagem() {
 }
 
 window.onload = function() { 
-    alert("Bem-vindo ao Site Full Stack");
+    alert("Bem-vindo ao Site Full Stack!");
 };
